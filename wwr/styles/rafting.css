@@ -31,7 +31,7 @@ h2 {
     color: var(--primary-color);
 }
 
-.social-media {
+.socialmedia a {
     text-decoration: none;
 }
 
@@ -56,7 +56,20 @@ h2 {
     color: #fff;
 }
 
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 250px;
+    background-color: var(--secondary-color);
+    padding: 10px;
+}
+
 .hero article img {
     float: right;
     width: 125px;
+}
+
+section {
+    background-color: var(--accent2-color);
 }
