@@ -158,10 +158,6 @@ footer {
     width: 40px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-}
-
 section {
     background-color: var(--accent2-color);
 }
