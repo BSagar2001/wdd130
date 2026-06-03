@@ -33,6 +33,7 @@ header {
 nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 nav img {
@@ -189,9 +190,11 @@ main h1 {
 
 .serve-header {
     text-align: center;
+    font-weight: bold;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     margin: 1rem 0;
-    border-bottom: 2px solid var(--accent1-color);
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 
 .serve-header h2 {
@@ -203,8 +206,7 @@ main h1 {
 .contact-info {
     text-align: center;
     padding: 1rem;
-    background-color: var(--accent2-color);
-    margin-bottom: 1rem;
+    background: white;
 }
 
 .contact-info h2 {
@@ -223,7 +225,8 @@ main h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    margin-bottom: 2rem;
+    background: white;
+    padding: 1rem;
 }
 
 .map-box,
@@ -264,15 +267,11 @@ main h1 {
 }
 
 .employees {
-    text-align: center;
-    padding: 1rem;
-    background-color: var(--accent2-color);
-}
-
-.employees {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    gap: 1rem;
+    background: white;
+    padding: 1rem;
 }
 
 .employees figure {
