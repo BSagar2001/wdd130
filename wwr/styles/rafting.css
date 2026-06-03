@@ -46,8 +46,6 @@ nav ul {
     display: flex;
     list-style: none;
     gap: 2rem;
-    margin: 0;
-    padding: 0;
 }
 
 nav a {
@@ -250,12 +248,6 @@ main h1 {
 }
 
 /* Employees */
-
-.employee-section {
-    text-align: center;
-    margin-top: 2rem;
-}
-
 .employees {
     display: flex;
     justify-content: space-around;
@@ -281,5 +273,4 @@ footer {
     border-top: 2px solid #ccc;
     margin-top: 1rem;
     padding: 1rem;
-    border-top: 1px solid #ccc;
 }
