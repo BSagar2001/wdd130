@@ -226,10 +226,6 @@ main h1 {
     border: 1px solid #ccc;
 }
 
-.map-box iframe {
-    border: 0;
-}
-
 .form-box form {
     display: grid;
     gap: 10px;
