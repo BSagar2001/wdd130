@@ -158,16 +158,6 @@ figcaption {
     font-size: 0.9rem;
 }
 
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    margin-top: 1rem;
-    padding: 1rem;
-    border-top: 1px solid #ccc;
-}
-
 .socialmedia {
     display: flex;
     gap: 10px;
@@ -284,8 +274,12 @@ main h1 {
     object-fit: cover;
 }
 
-/* Footer */
-
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-top: 2px solid #ccc;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-top: 1px solid #ccc;
 }
